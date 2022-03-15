@@ -1,0 +1,18 @@
+{
+	"core": null,
+	"mappings": {
+		"setup.php": "./setup.php"
+	},
+	"plugins": [
+		".",
+		"https://downloads.wordpress.org/plugin/woocommerce.6.3.0.zip",
+		"https://downloads.wordpress.org/plugin/woocommerce-payments.3.8.2.zip"
+	],
+	"port": 8881,
+	"themes": ["https://downloads.wordpress.org/theme/storefront.4.0.0.zip"],
+	"env": {
+		"tests": {
+			"port": 8882
+		}
+	}
+}
